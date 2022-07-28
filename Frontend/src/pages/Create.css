@@ -1,0 +1,43 @@
+.createContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.createBody {
+  display: flex;
+  gap: 10rem;
+  /* width: 100vh; */
+  height: 50vh;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+
+.createCardContainer {
+  display: grid;
+  height: 320px;
+  width: 250px;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  align-items: center;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.createCardIcon {
+  filter: invert(100%);
+  grid-row: 5/10;
+}
+
+.createType {
+  align-self: center;
+  justify-self: center;
+  grid-row: 2/5;
+  color: white;
+}
+
+.createCardContainer:active {
+  transform: scale(0.97);
+}

@@ -1,0 +1,9 @@
+.proposalSearch {
+  width: 50vw;
+  height: 2.25rem;
+  font-family: "Red Hat Text";
+  letter-spacing: 1px;
+  border-style: none;
+  padding: 0 1rem;
+  text-transform: uppercase;
+}

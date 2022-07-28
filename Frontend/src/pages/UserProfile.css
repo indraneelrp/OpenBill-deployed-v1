@@ -1,0 +1,71 @@
+.profileMainContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.profileSubContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  gap: 2rem;
+}
+
+.userDisplayName {
+  color: rgba(49, 16, 165, 0.75);
+}
+
+.profileSectionHeader {
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 1.5rem;
+}
+
+.searchSection {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.subSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.proposalSubDivision {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.proposalTypeHeader {
+  align-self: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.proposalDisplayContainer {
+  /* max-height: 45rem;
+  overflow-x: scroll; */
+}
+
+.articleDisplayContainer {
+  /* max-height: 38rem;
+  overflow-y: scroll;
+  overflow-x: clip; */
+}
+
+#articlesSectionHeader {
+  margin-bottom: -1rem;
+  margin-top: 2rem;
+}
+
+/* .paginateContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.paginateContainer button {
+  align-self: center;
+} */

@@ -1,0 +1,44 @@
+.mainArticleContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.particularArticleContainer {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  align-items: center;
+  gap: 2rem;
+}
+
+.particularArticleHeader {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 50% 50%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  padding: 3% 3%;
+}
+
+.particularArticleTitle {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.particularArticleOwner {
+  grid-column: 1/5;
+  grid-row: 2/3;
+  align-self: end;
+}
+
+.particularArticleContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  padding: 3% 3%;
+  gap: 1rem;
+}
